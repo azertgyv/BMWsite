@@ -1,0 +1,45 @@
+.q{
+    text-align: center;
+    font-size: 64px;
+    font-family: sans-serif;
+}
+
+p::after{
+    content: '$';
+
+
+}
+::selection {
+     
+    background-color: aqua;
+    color: lime;
+}
+::placeholder{
+    color: red;
+    background-color: blue;
+}
+input{
+    color: lime;
+    background-color: blueviolet;
+}
+.e{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    
+}
+.e:hover{
+   
+    background-color: aqua;
+    color: white;
+}
+div>p{
+    margin: 0;
+    display: none;
+}
+div:hover p{
+    display: inline-block;
+}
+input:focus{
+    color: darkgoldenrod;
+}

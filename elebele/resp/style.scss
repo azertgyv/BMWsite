@@ -1,0 +1,30 @@
+* {
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+
+}
+
+.header-bar {
+    background-color: red;
+    width: 96%;
+    max-width: 1200px;
+    display: flex;
+
+    p {
+        width: 96%;
+        max-width: 1200px;
+    }
+}
+
+.footer {
+    background-color: blue;
+    width: 96%;
+    max-width: 1200px;
+    display: flex;
+
+    p {
+        width: 96%;
+        max-width: 1200px;
+    }
+}
